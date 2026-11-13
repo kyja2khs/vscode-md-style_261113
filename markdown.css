@@ -1,0 +1,11 @@
+/* Markdown preview (Ctrl+Shift+V) header color
+   #569CD6 = VS Code Dark+ editor heading color */
+h1, h2, h3, h4, h5, h6 {
+    color: #569CD6;
+    font-weight: bold;
+}
+
+/* Unordered / ordered list items (text + bullet/number) */
+ul li::marker, ol li::marker {
+    color: #788c5d;
+}
